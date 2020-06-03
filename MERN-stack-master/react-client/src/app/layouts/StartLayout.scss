@@ -1,0 +1,71 @@
+@import '../_sass/abstracts/index';
+
+
+//WELCOME
+.welcome{
+	width: 100%;
+}
+
+.background{
+	background-color: $color-blue;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	background-image: url('./../assets/images/welcome.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.login__buttons{
+	margin-top: 600px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+//INPUT FIELD
+
+.titleInputField{
+	color: $color-blue;
+	font-size: 15px;
+	font-family: $font-family-avenir;
+}
+
+
+//LOGIN/SIGNIN
+
+.background-2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	background-image: url('./../assets/images/spoor.png');
+	background-size: cover;
+	background-position: center;
+}
+
+#logo{
+	height: 100px;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+
+.login__form{
+	margin-top: 165px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: $color-white;
+}
+
+.buttonsBottem{
+	margin-top: 35px;
+}
+
+
+

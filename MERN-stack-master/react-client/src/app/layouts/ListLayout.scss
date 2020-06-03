@@ -1,0 +1,61 @@
+@import  '../_sass/abstracts/index';
+
+//Header  catlist& doglist 
+
+.header{
+	background-color: $color-blue;
+	height: 190px;
+	
+	&__nav{
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-wrap: nowrap;
+		padding-top: 70px;
+		padding-left: 65px;
+		padding-right: 65px;
+		font-size: 20px;
+		font-family: $font-family-avenir;
+
+		&-active{
+			color: $color-white;
+			text-decoration: underline;
+		}
+		
+		a{
+			color: $color-white;
+			
+			&:hover{
+				color: $color-white;
+				text-decoration: none;
+
+			}
+		}
+	}
+
+	&__sort{
+		padding-top: 25px;
+		margin-left: 75px;
+		display: flex;
+		flex-wrap: wrap;
+		font-family: $font-family-avenir;
+	}
+}
+
+	#paw{
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+
+.sortOption{
+	margin-left: 25px;
+	border: 2px solid $color-white;
+	padding: 10px;
+	margin-top: -15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+

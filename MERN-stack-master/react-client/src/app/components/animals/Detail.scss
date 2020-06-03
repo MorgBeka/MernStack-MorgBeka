@@ -1,0 +1,80 @@
+@import '../../_sass/abstracts/index';
+
+.detail{
+	background-color: $color-blue;
+	margin-top: 60%;
+	padding-bottom: 10vh;
+}
+
+.info{
+	color: $color-white;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.title{
+	font-family: $font-family-avenir;
+	font-weight: 600;
+	padding-top: 15px;
+}
+
+.content{
+	padding-left: 60px;
+	padding-top: 15px;
+	font-weight: 100;
+	font-family: $font-family-avenir;
+}
+
+.nameDetail{
+	margin-bottom: 30px;
+	font-family: $font-family-avenir;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.imgDetail{
+	width: 100%;
+	z-index: -2;
+}
+
+.infoText{
+	margin: auto;
+	margin-top: 40px;
+	text-align: justify;
+	font-family: $font-family-avenir;
+	font-weight: 100;
+	
+
+	&__shelter{
+		font-weight: 100;
+		font-family: $font-family-avenir;
+
+	}
+
+}
+
+.heartDetail{
+	transform: translate(30px, -20px);
+}
+
+
+.information{
+	color: $color-white;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 50px;
+	text-align: left;
+}
+
+.link{
+	color: white;
+
+	&:active{
+		font-style: none;
+	}
+
+	p{
+		color: white;
+		font-size: 20px;
+	}
+}

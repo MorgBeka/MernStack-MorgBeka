@@ -1,0 +1,39 @@
+@import '../../_sass/abstracts/index';
+
+
+.header{
+	background-color: $color-blue;
+	color: $color-white;
+	height: 190px;
+	
+	&__sort{
+		padding-top: 25px;
+		margin-left: 75px;
+		font-family: $font-family-avenir;
+		font-size: 15px; 
+		display: flex;
+		flex-wrap: wrap;
+
+		&-wrapper{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+	}
+
+	.top__title{
+		font-size: 30px;
+		font-family: $font-family-avenir;
+		text-align: center;
+		padding-top: 65px;
+	}
+
+	//Header informationpage
+	font-family: $font-family-avenir;
+	text-align: center;
+
+	
+}
+
+

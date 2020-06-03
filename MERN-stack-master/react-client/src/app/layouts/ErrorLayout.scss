@@ -1,0 +1,76 @@
+@import '../_sass/abstracts/index';
+
+/*
+* error page
+*/
+.error-page {
+background-image: url(../assets/images/error.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+.error-page * {
+transition: all 268ms ease-in-out 0s;
+}
+
+.error-page .main {
+height: 100vh;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+align-content: center;
+justify-items: center;
+}
+
+.error-page .main>div {
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+}
+
+   
+.error-page .main .sub-title {
+margin: 0;
+margin-top: 230px;
+padding: 20px;
+font-size: 2rem;
+text-align: center;
+text-transform: uppercase;
+font-weight: 900;
+color: $color-white
+}
+
+.error-page .main .sub-title .blue{
+    color: $color-blue;
+    background-color: $color-white;
+}
+.error-page .main .description {
+margin: 0;
+padding: 20px;
+font-size: 1.4rem;
+text-align: center;
+text-transform: uppercase;
+font-weight: 900;
+color: $color-white;
+}
+
+.error-page .main .description a {
+margin: 0;
+font-size: 1.4rem;
+text-align: center;
+text-transform: uppercase;
+font-weight: 900;
+background-color: $color-blue;
+color: $color-white;
+text-decoration: none;
+}
+
+.error-page .main .description>a:hover {
+background-color: $color-white;
+color: $color-blue;
+}

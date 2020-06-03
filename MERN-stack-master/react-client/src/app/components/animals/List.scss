@@ -1,0 +1,50 @@
+@import '../../_sass/abstracts/index';
+
+
+.blueBar{
+background-color: $color-blue;
+color: $color-white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+box-shadow: 0px -3px 6px 1px $color-blue;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.name{
+margin: 0;
+font-size: 30px;
+font-weight: 300;
+}
+
+.a-ButtonFurther{
+	text-decoration: none;
+	color: $color-white;
+	margin: 0;
+	margin-right: 5px;
+	border: none;
+
+	i {
+		font-size: 35px;
+	}
+}
+
+
+.image{
+	height: 30vh;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+.img{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	z-index: -2;
+}
+
+.list{
+	padding-bottom: 8vh;;
+}

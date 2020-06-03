@@ -1,0 +1,13 @@
+@import '../../_sass/abstracts/index';
+
+.LogOut{
+	text-decoration: none;
+	// color: $color-white;
+	display: flex;
+
+
+	&__p{
+		padding-left: 5px;
+	}
+
+}

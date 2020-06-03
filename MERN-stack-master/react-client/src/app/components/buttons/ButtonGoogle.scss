@@ -1,0 +1,27 @@
+@import '../../_sass/abstracts/index';
+
+.a-ButtonGoogle{
+	width: 100%;
+	margin-bottom: 15px;
+	border: solid $color-red 2px;
+
+	:hover{
+		color: $color-white;
+		background-color: $color-red;
+	}
+
+}
+
+.labelButtonGoogle{
+	color: $color-red;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	padding-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: $font-family-avenir;
+
+}
+
+
